@@ -1,5 +1,7 @@
 package it.checatel;
 
+import java.util.Scanner;
+
 public class CiaoJava {
 
 	public static void main(String[] args) {
@@ -19,8 +21,22 @@ public class CiaoJava {
 		boolean mioBoolean = true;
 		
 		//dati non primitivi
-		
 		String variabileStringa = "Ciao io sono una stringa";
+		System.out.println(variabileStringa);
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Come ti chiami?");
+		
+		//per leggere una stringa si usa il metodo nextLine
+		String nome = input.nextLine();
+		System.out.println(nome);
+						
+		System.out.println("Inserisci la tua eta");
+		//per leggere una stringa si usa il metodo nextInt
+		int eta = input.nextInt();
+		
+		
 	}
 
 }
