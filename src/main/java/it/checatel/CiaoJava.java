@@ -28,8 +28,9 @@ public class CiaoJava {
 		
 		System.out.println("Come ti chiami?");
 		
-		//per leggere una stringa si usa il metodo nextLine
+		//la variabile riceve il valore del input con il met
 		String nome = input.nextLine();
+		//per leggere una stringa si usa il metodo nextLine
 		System.out.println(nome);
 						
 		System.out.println("Inserisci la tua eta");
