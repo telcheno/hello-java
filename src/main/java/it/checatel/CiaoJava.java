@@ -36,7 +36,7 @@ public class CiaoJava {
 		System.out.println("Inserisci la tua eta");
 		//per leggere una stringa si usa il metodo nextInt
 		int eta = input.nextInt();
-		
+		System.out.println("Tipi di dati primitivi \n" + "\n Intero \n" + mioIntero + "\n Long \n" + mioLong + "\n Float \n" + mioFloat + "\n Byte \n" + mioByte + "\n Short \n" + mioShort + "\n Double \n" + mioDouble + "\n Boolean \n" + mioBoolean);
 		
 	}
 
